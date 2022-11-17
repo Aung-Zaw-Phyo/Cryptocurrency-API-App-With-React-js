@@ -1,0 +1,22 @@
+.rank {
+    display: inline-block;
+    padding: 10px 7px; 
+    background-color: blue;
+    border-radius: 14px;
+}
+
+.border-radius {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px !important;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.071);
+}
+td{
+    text-align: center;
+    padding: 10px;
+}

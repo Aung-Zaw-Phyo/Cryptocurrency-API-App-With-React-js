@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Noto+Serif&family=PT+Serif&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +13,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #26272b;
+  color: #f4f4f4;
+  font-family: 'Merriweather', serif;
+}
+
+a{
+  text-decoration: none;
+  color: white !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a{
+  color: #f4f4f4;
+}
+
+h1{
+  text-align: center;
+  margin: 1rem;
+}
+
+fonts {
+  font-family: 'Lora', serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Noto Serif', serif;
+  font-family: 'PT Serif', serif;
 }

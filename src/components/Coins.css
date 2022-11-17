@@ -1,0 +1,29 @@
+.heading {
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    box-shadow: 0px 0px 12px #18191b;
+    background-color: #26272b;
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+}
+
+.coin-row {
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+}
+
+img{
+    margin-right: 10px;
+    width: auto;
+}
+
+.coin-row:hover{
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
